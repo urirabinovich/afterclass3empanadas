@@ -1,0 +1,89 @@
+    <header>
+       <h1>🥟Mis empanadas🥟</h1>
+        <div>
+            <img src="./img/logo3.png" alt="Empanada"></div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Galería</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, animi quae. Velit repudiandae nam dolorum aperiam id voluptatem tenetur laborum est quibusdam vero blanditiis, fuga quo sequi porro inventore sint dolorem soluta distinctio natus nemo ea, aut maxime nesciunt? At nulla esse reprehenderit ipsam. Ab harum corporis quae. Ullam quas est ut doloremque nihil eos, id quaerat ab molestias non cupiditate ratione recusandae, consequatur tempore asperiores voluptatum harum voluptate sequi! Est minima architecto molestiae nihil laboriosam debitis dolor non impedit placeat doloribus assumenda itaque illo suscipit temporibus nemo blanditiis, rem explicabo a aliquam quasi nesciunt inventore, distinctio numquam animi. Accusamus?
+        </p>
+        <div><img src="./img/empanada.png" alt="empanadas"></di>
+    </main>
+    <footer>
+        <h4>
+            🥟Mis empanadas🥟Mis empanadas🥟Mis empanadas🥟Mis empanadas🥟
+        </h4>
+    </footer>
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f1e5c6;
+  font-family: arial;
+}
+header h1 {
+  color: #86630b;
+  text-align: center;
+}
+
+header div {
+  text-align: center;
+}
+
+header nav .menu {
+  background: #780303;
+  list-style-type: none;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header nav .menu li {
+  text-align: center;
+}
+
+header nav .menu li a {
+  color: #ffea00;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+header nav .menu li a:hover {
+  background-color: #ffea00;
+  color: #780303;
+}
+
+main p {
+  color: #44150d;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+main div {
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  background-color: #780303;
+  color: #ffea00;
+  text-align: center;
+}
